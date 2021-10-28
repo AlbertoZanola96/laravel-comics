@@ -115,11 +115,11 @@
           </div>
           <div class="social">
             <h3>FOLLOW US</h3>
-            <img src="../assets/footer-facebook.png" alt="">
-            <img src="../assets/footer-twitter.png" alt="">
-            <img src="../assets/footer-youtube.png" alt="">
-            <img src="../assets/footer-pinterest.png" alt="">
-            <img src="../assets/footer-periscope.png" alt="">
+            <img src="{{ asset('images/footer-facebook.png')}}" alt="">
+            <img src="{{ asset('images/footer-twitter.png')}}" alt="">
+            <img src="{{ asset('images/footer-youtube.png')}}" alt="">
+            <img src="{{ asset('images/footer-pinterest.png')}}" alt="">
+            <img src="{{ asset('images/footer-periscope.png')}}" alt="">
           </div>
         </div>
       </div>
