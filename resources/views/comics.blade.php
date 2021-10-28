@@ -3,5 +3,7 @@
 @section('title', 'Comics')  
 
 @section('content')
-    <h3>sono il contenuto principlae della sezione comics</h3>
+    <h3>i miei fumetti</h3>
+    @dump($fumetti)
+    <h1></h1>
 @endsection

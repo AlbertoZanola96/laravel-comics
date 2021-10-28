@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Symfony\Component\VarDumper\Cloner\Data;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,7 +15,11 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/comics', function () {
-    return view('contacts');
+    $array_fumetti = config('data');
+    $data = [
+        'fumetti' => $array_fumetti
+    ];
+    return view('comics', $data);
 });
 
 Route::get('/characters', function () {
